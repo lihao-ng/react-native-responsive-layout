@@ -61,7 +61,7 @@ Section.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,
-  style: ViewPropTypes.style,
+  style: PropTypes.any,
   stretch: PropTypes.bool,
 };
 
