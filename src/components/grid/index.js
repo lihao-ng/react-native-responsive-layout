@@ -213,7 +213,7 @@ Grid.propTypes = {
   horizontal: PropTypes.bool,
   scrollable: PropTypes.bool,
   relativeTo: PropTypes.oneOf(['parent', 'self', 'window']),
-  style: ViewPropTypes.style,
+  style: PropTypes.any,
   stretchable: PropTypes.bool,
 
   children: PropTypes.oneOfType([
